@@ -1,7 +1,7 @@
 const { hashPassword,comparePassword } = require("../helpers/auth.js");
 const { AuthUser } = require("../models/user.js");
 const jwt = require("jsonwebtoken")
-
+//  jay hind dosto
 
 const test = (req,res)=>{
     res.json("jay hind dosto")
